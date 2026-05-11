@@ -7,9 +7,12 @@ https://hub.docker.com/repository/docker/seaways/custom-nginx/general
 ### Задача 3
 <img width="1379" height="473" alt="image" src="https://github.com/user-attachments/assets/318e507d-8608-4c31-9331-a2cbcde936fe" />
 <img width="887" height="494" alt="image" src="https://github.com/user-attachments/assets/2ecaa012-c1ea-4462-8e15-d449dd631214" />
+
+
 ***Ответ к пункту 3***
 В контейнере nginx запущен как процесс с PID 1.
 При нажатии CTRL+C в интерактивном режиме (когда мы в контейнере), мы завершаем процесс "прородитель" с PID 1, тем самым завершая работу самого контейнера.
+
 ***Ответ к пункту 10***
 При запуске контейнера мы опубликовали порт 80 контейнера на 127.0.0.1:8080 хоста.
 После изменения порта nginx в самом контейнере, nginx начал слушать порт 81 вместо 80.
