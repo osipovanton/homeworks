@@ -1,9 +1,9 @@
 # Домашняя работа по модулю «Облачная инфраструктура. Terraform»
 
 
-1. [Ввдение в Terraform](terr_01/hw-01.md)
+1. [Ввдение в Terraform](terr_01/hw_01.md)
 
-2. [Основы Terraform. Yandex Cloud](terr_02/hw-02.md)
+2. [Основы Terraform. Yandex Cloud](terr_02/hw_02.md)
 
 ### Ниже работы , которые предстоит выполнить. 
 3. [Управляющие конструкции в коде Terraform](03/hw-03.md)
